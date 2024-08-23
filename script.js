@@ -9,11 +9,11 @@ function updateClock(){
    let s= new Date().getSeconds();
 
 // hours.innerText=h;
-minutes.innerText=m;
-seconds.innerText=s;
+minutes.innerText=m.toString().padStart(2, '0');
+seconds.innerText=s.toString().padStart(2, '0');
 if(h>=12){
   ampm.innerText="PM";
-  hours.innerText=h-12;
+  hours.innerText=(h-12).toString().padStart(2, '0');
 }
 else{
   ampm.innerText="AM";
