@@ -1,0 +1,52 @@
+*{
+    color:white;
+}
+
+.time{
+    display:flex;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    /* border:2px solid black */
+}
+.box1{
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid black;
+    width:300px;
+    height:150px;
+}
+
+.t{
+    font-size: 40px;
+}
+
+.fa-circle-play{
+    color:orangered;
+    font-size: 40px;
+    padding:5px;
+}
+
+.fa-solid{
+    font-size: 21px;
+    margin:7px;
+    padding:5px;
+    font-weight: 200;
+    border-radius: 50%;
+    border:1px solid white;
+}
+.ions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
