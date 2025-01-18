@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(170, 85, 194);
+    
+}
+.box{
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.password{
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border:0;
+    outline:0;
+}
+.fa-solid{
+    font-size: 20px;
+    color:black;
+    margin-left: 10px;
+}
