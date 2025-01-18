@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="box">
+        <div class="flex">
+            <input type="text" placeholder="Enter City" id="text">
+            <img src="images/search.png" id="search">
+        </div>
+        <div class="city">
+        <img src="images/clouds.png" id="cloud" class="weatherpic">
+        <span id="weather">Weather</span><span id="tem">null</span>
+      <span id="cname"> city name</span>
+            </div>
+
+        <div class="wind">
+          <!-- <img src="images/wind.jpg" id="wind">wind -->
+         <span> <i class="fa-solid fa-wind"></i><div><div id="wind" class="w">null</div><div>Wind</div></div></span>
+         <span><i class="fa-solid fa-water"></i><div id="humidity" class="w">null</div><div>Humidity</div></span>
+        
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
