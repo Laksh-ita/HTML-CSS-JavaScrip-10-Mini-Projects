@@ -1,0 +1,109 @@
+*{
+    font-size: 20px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: blueviolet;
+    
+}
+.box{
+   padding:20px;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+h3{
+    font-size: 25px;
+    color: rgb(7, 7, 57);
+}
+
+.inputitems{
+    display:flex;
+    flex-direction: row;
+    transition: transform 0.5s ease;
+    margin-bottom: 10px;
+   
+   
+}
+.inputitems:hover {
+    transform: scale(1.05); 
+  }
+.inputbar{
+    height:40px;
+    border-top-left-radius:15px;
+   border-bottom-left-radius:15px; 
+   border:none;
+   
+}
+.inputbar:hover{
+    background-color: rgb(199, 219, 236);
+   
+}
+
+.add{
+   padding:10px;
+   background-color: #ee7042;
+   border-top-right-radius:15px;
+   border-bottom-right-radius:15px; 
+
+}
+
+.task {
+    display: flex;
+    align-items:center;
+     justify-content: center;
+    
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin:5px;
+    position: relative; 
+    /* This makes .fa-x position relative to .task */
+}
+
+.fa-x {
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 50%;
+    font-weight: 800;
+    position: absolute; /* Allows positioning relative to .task */
+    right: 10px; 
+    top: 50%; /* Center vertically in the middle of .task */
+    transform: translateY(-50%);
+     /* Center vertically by adjusting for element's height */
+}
+
+ .task{
+    margin:none;
+ 
+ }
+
+.checkbox{
+    
+    margin-right:10px;
+    position: absolute; /* Allows positioning relative to .task */
+    left: 10px; 
+    
+    transform: scale(1.2); /* Adjust the scale factor to increase the size */
+ 
+    
+    
+}
+.fa-x:hover{
+    background-color: #e9bf8f;
+    
+}
+
+li{
+    list-style: none;
+}
+.divcontainer{
+    position: absolute; 
+    right:30px;
+
+}
+
