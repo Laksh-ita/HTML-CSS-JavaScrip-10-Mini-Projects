@@ -1,0 +1,57 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color:#D4F1F4;
+}
+
+.Generate{
+    font-size: 27px;
+    margin: none;
+    color:#05445E;
+}
+.random{
+    text-decoration: underline;
+}
+
+.box{
+    height: 40px;
+    padding: 3px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    border-radius:20px ;
+    margin: 7px;
+}
+#password{
+    height:30px;
+    border:none;
+    outline:0;
+    width: 300px;
+    font-size: 20px;
+    margin: 4px;
+}
+
+#fa-copy{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 4px;
+    color: #75E6DA;
+    border-radius: 50%;
+}
+button{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:#189AB4;
+    color:white;
+    margin:5px;
+    
+}
+
+#fa-copy:hover{
+    background-color:bisque;
+}
