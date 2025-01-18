@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+    background:linear-gradient(45deg,rgb(43, 0, 255),rgb(162, 130, 238));
+}
+
+.box{
+    
+}
+#text{
+    font-size: 17px;
+    height:200px;
+    width: 350px;
+    padding:5px;
+    border-radius: 10px;
+    border:2px solid white;
+    background:#6c3bce;
+    color:white;
+    resize:none;
+    outline: 0;
+    
+}
+select{
+    width:75%;
+    height:35px;
+    border-radius: 10px;
+}
+button{
+    width:20%;
+    height: 30px;
+    margin-left:10px;
+    border-radius: 10px;
+    border:0;
+    box-shadow: 0;
+    background-color: orangered;
+}
