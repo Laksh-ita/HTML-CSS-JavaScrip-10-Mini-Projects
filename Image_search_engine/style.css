@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 300vh; */
+    flex-direction: column;
+    color:white;
+    background: linear-gradient(45deg, rgb(87, 59, 246), rgb(200, 116, 245));
+}
+.s{
+    display: flex;
+    align-items: center;
+   
+}
+input{
+    height: 33px;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 7px;
+    outline: 0;
+    border: 0;
+}
+button{
+    font-size: 16px;
+    height: 53px;
+    padding:15px;
+    border-radius: 7px;
+    background-color: orangered;
+    outline: 0;
+    border: 0;
+}
+
+img{
+    height: 200px;
+    width:200px;
+    margin:15px;
+}
+#show{
+    display: none;
+}
